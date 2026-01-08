@@ -1,2 +1,1 @@
-- Add "Acheter" button to all product cards in the product section
-- Add cover photo to the About Us section
+
