@@ -48,3 +48,12 @@ document.querySelector('form').addEventListener('submit', function(e) {
         alert('Please fill in all fields.');
     }
 });
+
+// Add event listeners to Buy buttons to redirect to payment page
+document.querySelectorAll('button').forEach(button => {
+    if (button.textContent.trim() === 'Buy') {
+        button.addEventListener('click', function() {
+            window.location.href = 'payment.html';
+        });
+    }
+});
